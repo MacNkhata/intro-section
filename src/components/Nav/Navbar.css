@@ -1,0 +1,112 @@
+.app__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.app__navbar-logo-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app__navbar-logo {
+  height: max-content;
+  width: max-content;
+  margin-right: 60px;
+}
+
+.app__navbar-logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.app__navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app__navbar-logo-links li {
+  list-style: none;
+  margin-right: 60px;
+  font-size: var(--font-base);
+  color: var(--mid-gray);
+  cursor: pointer;
+}
+
+.app__navbar-links li:hover {
+  color: var(--off-black);
+  transition: 0.5s ease;
+}
+
+.app__navbar-logo-links li a {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.app__navbar-logo-links li a img {
+  margin-left: 5px;
+}
+
+.app__navbar-links .app__navbar__links-features,
+.app__navbar-links .app__navbar__links-company {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.app__navbar-logo-links li ul li {
+  margin-right: 0;
+  margin-top: 5px;
+}
+
+.app__navbar-logo-links li ul li img {
+  margin-right: 10px;
+}
+
+.app__navbar-links .app__navbar__links-features {
+  position: absolute;
+  top: 70px;
+  left: 330px;
+}
+
+.app__navbar .app__navbar__links-company {
+  position: absolute;
+  top: 70px;
+  left: 520px;
+}
+
+.app__navbar-auth_buttons {
+  font-size: var(--font-base);
+  color: var(--mid-gray);
+}
+
+.app__navbar-auth_buttons .app__navbar__auth_buttons-login,
+.app__navbar-auth_buttons .app__navbar__auth_buttons-register {
+  padding: 10px 20px;
+}
+
+.app__navbar-auth_buttons .app__navbar__auth_buttons-login {
+  margin-right: 20px;
+}
+
+.app__navbar-auth_buttons .app__navbar__auth_buttons-login:hover {
+  color: var(--off-black);
+  transition: 0.5s ease;
+}
+
+.app__navbar-auth_buttons .app__navbar__auth_buttons-register {
+  border: 2px solid var(--mid-gray);
+  border-radius: 10px;
+  outline: none;
+}
+
+.app__navbar-auth_buttons .app__navbar__auth_buttons-register:hover {
+  border: 2px solid var(--off-black);
+  color: var(--off-black);
+  transition: 0.5s ease;
+}

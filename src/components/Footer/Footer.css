@@ -1,0 +1,13 @@
+.app__attribution {
+  font-size: 0.8rem;
+  color: var(--mid-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__attribution a {
+  color: dodgerblue;
+  text-decoration: underline;
+}
