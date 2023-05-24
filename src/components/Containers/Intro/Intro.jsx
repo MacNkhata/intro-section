@@ -7,15 +7,10 @@ const Intro = () => {
   return (
     <div className="app__intro">
       <div className="app__intro-copy">
-        <h1 className="app__intro__copy-heading">
-          Make <br /> remote work
-        </h1>
+        <h1 className="app__intro__copy-heading">Make remote work</h1>
         <p className="app__intro__copy-p">
-          Get your team in sync, no matter your location.
-        </p>
-        <p className="app__intro__copy-p">
-          Streamline processes, create team rituals, and <br /> watch
-          productivity soar.
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
         </p>
         <button className="app__intro__copy-btn">Learn more</button>
 
@@ -34,9 +29,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="app__intro-hero">
-        <img src={images.hero_desktop} alt="hero" />
-      </div>
+      <div className="app__intro-hero"></div>
     </div>
   );
 };
