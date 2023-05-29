@@ -62,7 +62,7 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .app__intro {
     display: flex;
     flex-direction: column-reverse;
@@ -75,7 +75,7 @@
   .app__intro-copy {
     padding: 0;
     text-align: center;
-    margin-top: -200px;
+    /* margin-top: -200px; */
   }
   .app__intro__copy-heading {
     font-size: 2rem;
