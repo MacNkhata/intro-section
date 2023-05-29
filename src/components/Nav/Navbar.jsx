@@ -37,7 +37,7 @@ const Navbar = () => {
 
       <div className="app__navbar-smallscreen">
         <button
-          className="app__navbar-smallscreen-btn"
+          className="app__navbar-smallscreen-btn app__navbar-smallscreen-btn__open"
           onClick={() => setToggleMenu(true)}
         >
           <img src={images.menu_icon} alt="menu button" />

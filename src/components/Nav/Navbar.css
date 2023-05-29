@@ -112,7 +112,7 @@
 }
 
 .app__navbar-smallscreen {
-  /* display: none; */
+  display: none;
 }
 
 .app__navbar-smallscreen_overlay {
@@ -153,11 +153,21 @@
 .app__navbar-smallscreen_links {
   list-style: none;
   margin-top: 100px;
+  color: var(--mid-gray);
 }
 
 .app__navbar-smallscreen_links li {
-  margin: 1rem;
+  margin: 2rem 0 0 2rem;
+  font-size: 20px;
   text-align: left;
+}
+
+.app__navbar-smallscreen_links li ul {
+  list-style: none;
+}
+
+.app__navbar-smallscreen_links li a img {
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 650px) {
@@ -165,7 +175,32 @@
   .app__navbar-auth_buttons {
     display: none;
   }
+
   .app__navbar {
     padding: 1rem;
+  }
+
+  .app__navbar-smallscreen {
+    display: block;
+  }
+
+  .app__navbar-smallscreen_auth_buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px 0 40px;
+    text-align: center;
+    font: var(--font-base);
+    color: var(--mid-gray);
+  }
+
+  .app__navbar-smallscreen_auth_buttons .app__navbar__auth_buttons-login,
+  .app__navbar-smallscreen_auth_buttons .app__navbar__auth_buttons-register {
+    padding: 10px 20px;
+  }
+
+  .app__navbar-smallscreen_auth_buttons .app__navbar__auth_buttons-register {
+    border: 2px solid var(--mid-gray);
+    border-radius: 10px;
+    outline: none;
   }
 }

@@ -80,6 +80,7 @@
   .app__intro__copy-heading {
     font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center !important;
   }
   .app__intro__copy-p {
     font-size: var(--font-base);
