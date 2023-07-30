@@ -29,8 +29,6 @@ Users should be able to:
 
 ### Screenshot
 
-
-
 ### Links
 
 - Solution URL: [Github](https://github.com/MacNkhata/intro-section.git)
@@ -41,11 +39,9 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS 
+- CSS
 - Flexbox
 - [React](https://reactjs.org/) - JS library
-
-
 
 ### What I learned
 
@@ -55,13 +51,9 @@ This was the first time to do a React project on my own with following a tutoria
 
 From this project I will try other challenges from Frontend Mentor to continue improving my React proficiency and continue more react capabilities. I will also try include Next js in the coming projects.
 
-
 ## Author
 
 - Frontend Mentor - [@ThaCodingPanda](https://www.frontendmentor.io/profile/ThaCodingPanda)
 - Twitter - [@MacNkhata](https://www.twitter.com/macnkhata)
 
-
 ## Acknowledgments
-
-
